@@ -71,7 +71,7 @@ module TMS
     # Displays the station that the train is currently at for the passengers
     # @return [String] the text to display
     def passenger_display
-      return "Now entering: #{@station.name}" if @station
+      return "Station: #{@station.name}" if @station
 
       'Currently driving...'
     end

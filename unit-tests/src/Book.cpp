@@ -19,7 +19,9 @@ std::vector<std::string> Book::getTags()
 
 void Book::addTag(std::string const& tag)
 {
-    tags.push_back(tag);
+    if (std::count(tags.begin(), tags.end(), tag) == 0) {
+        tags.push_back(tag);
+    }
 }
 
 bool Book::hasTag(std::string const &tag)

@@ -28,3 +28,8 @@ void Library::clearBooks()
 {
     books.clear();
 }
+
+uint32_t Library::countBooks()
+{
+    return books.size();
+}

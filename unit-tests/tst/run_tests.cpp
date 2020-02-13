@@ -2,3 +2,4 @@
 #include "catch.hpp"
 
 #include "BookTest.cpp"
+#include "LibraryTest.cpp"

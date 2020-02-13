@@ -31,4 +31,10 @@ public:
      * Clears the list of books that are stored in the library
      */
     void clearBooks();
+
+    /**
+     * Counts the books stored in the library
+     * @return the number of stored books
+     */
+     uint32_t countBooks();
 };
